@@ -1,9 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
 
+/* Shared styles */
 * {
     margin: 0px;
     padding: 0px;
     font-family: 'Poppins', sans-serif;
+
+}
+
+:root {
+    --btn-color: #E02C6D;
+    --btn-text: white;
+    --primary-text-color: #3A3A3A;
+}
+
+
+
+
+
+
+
+.description-text {
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+/* nav styles */
+
+.first-logo {
+    color: var(--primary-text-color);
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 nav {
@@ -16,4 +45,61 @@ nav {
     display: flex;
     gap: 34px;
     list-style: none;
+}
+
+/* start-section styles */
+
+
+
+.start-section {
+    display: flex;
+    padding: 0.5rem 7.5rem;
+    gap: 13rem;
+}
+
+.start-section-left {
+    margin-top: 2.5rem;
+
+}
+
+
+.star-title {
+    color: var(--primary-text-color);
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 4.375rem;
+}
+
+.description-text {
+    padding: 0.8rem 0;
+}
+
+
+.icon-adjust {
+    width: 24px;
+    height: 24px;
+}
+
+.class-for-flex-btn {
+    display: flex;
+    background-color: var(--btn-color);
+    padding: 0.9rem 1.5rem;
+    color: var(--btn-text);
+    width: 10rem;
+    border-radius: 2.5625rem;
+    justify-content: space-between;
+
+
+
+}
+
+.btn-text {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.first-section-img-container {
+    background-image: url(./images/Circle-design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
