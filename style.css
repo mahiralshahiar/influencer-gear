@@ -103,3 +103,32 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+/* Brand styles section  */
+
+
+.brand-img-container {
+    display: flex;
+    justify-content: center;
+    gap: 3.7rem;
+    margin-top: 5rem;
+    Border: 1px solid;
+    Border-image: linear-gradient(to right, transparent, rgba(128, 128, 128, 0.438), transparent);
+    Border-left: 0;
+    Border-right: 0;
+    Border-image-slice: 1;
+    padding: 2.5rem 0;
+
+}
+
+/* Popular Collection */
+
+
+.section-title {
+    color: var(--primary-text-color);
+    font-size: 1.75rem;
+    font-weight: 600;
+    line-height: 4.375rem;
+    text-align: center;
+    margin-top: 6rem;
+}
